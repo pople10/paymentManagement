@@ -1,0 +1,15 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^pending pending.php [NC,L]
+RewriteRule ^gain gain.php [NC,L]
+RewriteRule ^lose lose.php [NC,L]
+RewriteRule ^dashboard index.php [NC,L]
+RewriteRule ^insight insight.php [NC,L]
+RewriteRule ^contact contact.php [NC,L]
+RewriteRule ^action action.php [NC,L]
+RewriteRule ^login login.php [NC,L]
+RewriteRule ^finishedTasks finished.php [NC,L]
