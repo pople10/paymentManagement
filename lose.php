@@ -100,6 +100,7 @@
 								<th>Target</th>
 								<th>Description</th>
 								<th>Date</th>
+								<th>Timestamp</th>
 								<th>Action</th>
 							</tr>
 						</thead>

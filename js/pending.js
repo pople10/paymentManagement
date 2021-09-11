@@ -201,6 +201,8 @@ $(document).ready(function(){
 			
 			{ "data": "date" },
 			
+			{ "data": "timestamp" },
+			
 			{ "data": null,"render":function(data){return "<button onclick='update("+data.id+")' style='margin-right:5px;' class='btn btn-info'><i class='fa fa-refresh'></i></button><button onclick='complete("+data.id+")' style='margin-right:5px;' class='btn btn-info'><i class='fa fa-check'></i></button><button onclick='deleteit("+data.id+")' class='btn btn-danger'><i class='fa fa-trash'></i></button>"} }
 
         ]
